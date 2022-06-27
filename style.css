@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+header{
+  background-color: #293f50;
+
+  color: white;
+  height: 30rem;
+}
+
+.container{
+  display: flex;
+  align-items:flex-end;
+
+  justify-content: center;
+  gap: 13rem;
+  padding-top: 3rem;
+}
+
+.logo{
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 90%;
+
+  width: 15%;
+  
+
+  margin-top: 0rem;
+}
+
+.logo:hover{
+  color: #5b8880;
+}
+
+.options a {
+  text-decoration: none;
+  color: white;
+
+  font-weight: 400;
+  margin-left: 1rem;
+  
+}
+
+.options a:hover{
+  color: #5b8880;
+}
+
+.info{
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-align: end;
+  color: #5b8880;
+}
+
+/* ---------- MAIN ---------- */
+
+.main{
+  text-align: center;
+  margin-top: 2rem;
+  height: 200px;
+}
+
+.main a{
+  position: relative;
+  top: 3rem;
+
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.main a:hover{
+  color: #1a6356;
+  font-weight: 600;
+  background-color: rgb(210, 210, 210);
+}
+
+h1{
+  color: #5b8880;
+  font-size: 2.3rem;
+
+  margin-top: 5rem;
+  margin-bottom: 0.2rem;
+}
+
+h2{
+  line-height: 2.5rem;
+}
+
+/* ---------- BLOCK ---------- */
+.blocks{
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+
+  margin-top: 4rem;
+}
+
+.block{
+  width: 18rem;
+}
+
+.blocktitle{
+  font-weight: 400;
+  color: #8a949c;
+}
+
+.block img{
+  width: 300px;
+  border-radius: 8px;
+
+  margin-top: 1rem;
+}
+
+.block h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  font-weight: 400;
+  color: #30485a;
+}
+
+.blocktext{
+  color: #54565e;
+  font-weight: 400;
+}
+
+/* ---------- FOOTER ---------- */
+
+.footercontainer{
+  background-color: #293f50;
+
+  margin-top: 5rem;
+
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 28rem;
+}
+
+.footerlogo{
+  color: #5b8880;
+  font-size: 0.9rem;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
